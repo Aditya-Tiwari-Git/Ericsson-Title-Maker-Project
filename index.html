@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title Maker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ericsson Title Maker</h1>
+      <div class="dropdown-container">
+        <select id="product-select">
+          <option value="">Select Product</option>
+          <option value="Outlook">Outlook</option>
+          <option value="Word">Word</option>
+          <option value="Excel">Excel</option>
+        </select>
+        <select id="issue-select">
+          <option value="">Select Issue</option>
+          <option value="Not able to open">Not able to open</option>
+          <option value="Crashing">Crashing</option>
+          <option value="Slow">Slow</option>
+          <option value="Not responding">Not responding</option>
+          <option value="Formulas not working">Formulas not working</option>
+          <option value="Add-ins causing issues">Add-ins causing issues</option>
+        </select>
+        <select id="error-select">
+          <option value="">Select Error</option>
+          <option value="OST file size is large">OST file size is large</option>
+          <option value="Corrupted PST">Corrupted PST</option>
+          <option value="Large file size">Large file size</option>
+          <option value="Large dataset">Large dataset</option>
+          <option value="Complex formulas">Complex formulas</option>
+        </select>
+      </div>
+      <button id="generate-button">Generate Title</button>
+      <p id="title"></p>
+      <!-- <button id="copy-button">Copy to Clipboard</button> -->
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
