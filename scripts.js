@@ -216,7 +216,7 @@ $(document).ready(function () {
     "Need to change the group mail id",
     "Underlying error while sending",
     "No specific error mentioned",
-    "Error \unable to connect to server\"
+    "Error unable to connect to server",
     ],
     // Excel: ["Excel not opening", "Testing"],
     OneDrive: [
