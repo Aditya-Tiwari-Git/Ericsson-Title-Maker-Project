@@ -345,6 +345,12 @@ $(document).ready(function () {
       "Table error",
       "Tags not available",
     ],
+    Ericsson_Strong_Authentication: [
+      "Your sign-in was blocked",
+      "TAP generation failed",
+      "Authenticator code is not valid",
+      "Set up authenticator for new device",
+    ],
   };
 
   function populateDropdown(id, options) {
