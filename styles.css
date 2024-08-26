@@ -9,7 +9,7 @@ CSS
 
 body {
   font-family: Arial, sans-serif;
-  background: url("https://www.eetimes.eu/wp-content/uploads/2023/02/Ericsson_Headquarters.jpg")
+/*   background: url("https://www.eetimes.eu/wp-content/uploads/2023/02/Ericsson_Headquarters.jpg") */
     no-repeat center center fixed;
   background-size: cover; /* Ensure the image covers the entire background */
   color: #333;
