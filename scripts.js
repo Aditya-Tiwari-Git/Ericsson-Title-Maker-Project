@@ -158,6 +158,22 @@ $(document).ready(function () {
       "Table formatting issues in OneNote",
       "Tags is not showing",
     ],
+    Ericsson_Strong_Authentication: [
+      "Need to register in Microsoft Authenticator",
+      "Not getting the verification code/Tap code",
+      "Need to re-register in Microsoft Authenticator",
+      "Unable to access the 6-digit passcode from the Authenticator",
+      "Need to re-register in Microsoft Authenticator (Unable to use previous mobile)",
+      "Set up the Authenticator for new employee",
+      "Unable to reset the password from EPM Portal",
+      "Unable to login to MSDP",
+      "Need to register Authenticator for PEGAD",
+      "Need to register Authenticator for Functional ID",
+      "Need to register the Authenticator for TPC User",
+      "Not getting two-digit pop-up",
+      "Unable to login to VDI or Remote Desktop",
+      "Unable to approve sign-in request after phone reset",
+      ],
   };
 
   const errors = {
