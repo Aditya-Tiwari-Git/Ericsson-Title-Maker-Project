@@ -158,7 +158,7 @@ $(document).ready(function () {
       "Table formatting issues in OneNote",
       "Tags is not showing",
     ],
-    Ericsson_Strong_Authentication: [
+    MFA: [
       "Need to register in Microsoft Authenticator",
       "Not getting the verification code/Tap code",
       "Need to re-register in Microsoft Authenticator",
@@ -375,7 +375,7 @@ $(document).ready(function () {
       "Table error",
       "Tags not available",
     ],
-    Ericsson_Strong_Authentication: [
+    MFA: [
       "Your sign-in was blocked",
       "TAP generation failed",
       "Authenticator code is not valid",
