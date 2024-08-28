@@ -204,6 +204,21 @@ $(document).ready(function () {
 "Unable to open the Erica link",
 "Unable to use EMM application inside mobile",
   ],
+    EriCA: [
+      "Unable to send/read encrypted email",
+"Need to raise a request for Erica certificate",
+"Need to install Erica certificate",
+"S/MIME not supported in new Outlook",
+"Unable to send encrypted emails from group mailbox",
+"Unable to download Erica S/MIME certificate",
+"Net iD missing when downloading Erica certificate",
+"Unable to open encrypted emails on mobile device",
+"Not able to use Erica encryption over SVW",
+"Need to download Erica certificate for enrolling EMM",
+"Need help to set up encryption on email account",
+"Certificates are going to expire for group mailbox",
+"Need to reset the password",
+    ],
   };
 
   const errors = {
@@ -393,6 +408,16 @@ $(document).ready(function () {
 "Contact IT administrator",
 "Need replacement",
 "Device not compliant",
+    ],
+    EriCA: [
+      "Failed to download certificate to Net iD",
+"Digital ID not found",
+"No Erica certificate",
+"S/MIME error",
+"Your digital ID cannot be found",
+"You don't have permission to open",
+"Digital ID is missing",
+"Getting error: failed to download to Net iD",
     ],
   };
 
