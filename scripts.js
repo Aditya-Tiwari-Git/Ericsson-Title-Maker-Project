@@ -484,9 +484,9 @@ $(document).ready(function () {
     if (titleText && titleText !== "Please select both Product and Issue.") {
       navigator.clipboard
         .writeText(titleText)
-        .then(() => {
-          alert("Title copied to clipboard!");
-        })
+        // .then(() => {
+        //   alert("Title copied to clipboard!");
+        // })
         .catch((err) => {
           console.error("Failed to copy text: ", err);
         });
