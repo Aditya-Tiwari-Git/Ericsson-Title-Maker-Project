@@ -157,7 +157,7 @@ $(document).ready(function () {
       "Slow performance in OneNote",
       "Table formatting issues in OneNote",
       "Tags is not showing",
-    // ],
+    ],
     // MFA: [
     //   "Need to register in Microsoft Authenticator",
     //   "Not getting the verification code/Tap code",
