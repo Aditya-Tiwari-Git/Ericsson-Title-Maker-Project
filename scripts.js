@@ -218,7 +218,7 @@ $(document).ready(function () {
 // "Need help to set up encryption on email account",
 // "Certificates are going to expire for group mailbox",
 // "Need to reset the password",
-//     ],
+    // ],
   };
 
   const errors = {
@@ -390,7 +390,7 @@ $(document).ready(function () {
       "Table error",
       "Tags not available",
     ],
-    MFA: [
+    // MFA: [
 //       "Your sign-in was blocked",
 //       "TAP generation failed",
 //       "Authenticator code is not valid",
